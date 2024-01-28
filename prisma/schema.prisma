@@ -156,6 +156,6 @@ model DirectMessage{
   deleted Boolean @default(false)
 
 
-  @@unique([memberId])
-  @@unique([conversationId])
+  @@index([memberId])
+  @@index([conversationId])
 }
