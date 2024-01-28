@@ -53,7 +53,6 @@ const ChatItem = ({
     id,content,member,timestamp,fileUrl,deleted,currentMember,isUpdated,socketUrl,socketQuery
 }:ChatItemProps) => {
 
-
     const [isEditting,setIsEditting] = useState(false)
     const {onOpen} = useModal();
     const params= useParams();
